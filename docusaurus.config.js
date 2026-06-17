@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Commonspace Help',
   tagline: 'Help & Support for Commonspace',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -83,65 +83,54 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Commonspace Help',
+        title: '',
         logo: {
-          alt: 'Commonspace Help Logo',
-          src: 'img/logo.png',
+          alt: 'Commonspace',
+          src: 'img/logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'helpSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Help Center',
+          },
+          {
+            href: 'https://common.space',
+            label: 'Back to Commonspace',
+            position: 'right',
           },
         ],
       },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
+footer: {
+  style: 'light',
+  links: [
+    {
+      title: 'Help',
+      items: [
+        { label: 'Getting Started', to: '/docs/getting-started/welcome' },
+        { label: 'Space Owners', to: '/docs/space-owners/creating-your-first-space' },
+        { label: 'FAQs', to: '/docs/faqs/general' },
+      ],
+    },
+    {
+      title: 'Legal',
+      items: [
+        { label: 'Terms of Use', to: '/docs/legal/terms-of-use' },
+        { label: 'Privacy Policy', to: '/docs/legal/privacy-policy' },
+        { label: 'Community Guidelines', to: '/docs/legal/community-guidelines' },
+      ],
+    },
+    {
+      title: 'Commonspace',
+      items: [
+        { label: 'Go to App', href: 'https://common.space' },
+        { label: 'Contact Support', href: 'mailto:support@common.space' },
+      ],
+    },
+  ],
+  copyright: `© ${new Date().getFullYear()} Commonspace Platforms, Inc. All Rights Reserved.`,
+},
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

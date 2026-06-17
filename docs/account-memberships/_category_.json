@@ -1,0 +1,8 @@
+{
+  "label": "Your account & memberships",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Managing your profile, joining Spaces, memberships, benefits, and billing as a member."
+  }
+}

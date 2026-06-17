@@ -1,0 +1,8 @@
+{
+  "label": "Run your Space",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Creating and launching a Space, managing members, channels, branding, custom domains, and payouts."
+  }
+}
