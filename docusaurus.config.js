@@ -17,7 +17,7 @@ const config = {
   organizationName: 'kwlow',
   projectName: 'commonspace-help',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
   i18n: {
     defaultLocale: 'en',
