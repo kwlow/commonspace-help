@@ -41,21 +41,26 @@
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
-.cardEmoji {
-  font-size: 1.75rem;
+.cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
   margin-bottom: 0.75rem;
-  display: block;
 }
 
 .cardTitle {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  background: var(--cs-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .cardDescription {
   font-size: 0.9rem;
-  color: var(--ifm-color-emphasis-700);
+  color: #3d3d3d;
   flex: 1;
   margin-bottom: 1rem;
 }
@@ -63,7 +68,10 @@
 .cardLink {
   font-size: 0.9rem;
   font-weight: 600;
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+.cardLinkText {
   background: var(--cs-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

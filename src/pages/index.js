@@ -103,11 +103,13 @@ export default function Home() {
         <div className={styles.grid}>
           {topics.map((topic) => (
             <div key={topic.href} className={styles.card}>
-              <topic.Icon />
-              <h2 className={styles.cardTitle}>{topic.title}</h2>
+              <div className={styles.cardHeader}>
+                <topic.Icon />
+                <h2 className={styles.cardTitle}>{topic.title}</h2>
+              </div>
               <p className={styles.cardDescription}>{topic.description}</p>
               <Link to={topic.href} className={styles.cardLink}>
-                Browse articles →
+                <span className={styles.cardLinkText}>Browse articles →</span>
               </Link>
             </div>
           ))}
