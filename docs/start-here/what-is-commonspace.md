@@ -26,8 +26,7 @@ Commonspace replaces that dependency. It gives you the infrastructure to publish
 
 ---
 
-<a id="content-commerce-community"></a>
-## Content, commerce, and community — in that order
+## Content, commerce, and community — in that order {#content-commerce-community}
 
 Commonspace is built around three integrated capabilities: content, commerce, and community. The order is the argument.
 
