@@ -70,25 +70,25 @@ const topics = [
     Icon: IconStartHere,
     title: 'Start here',
     description: 'New to Commonspace? Learn what the platform is, how it works, and how to set up your account and profile.',
-    href: '/docs/start-here',
+    href: '/docs/category/start-here',
   },
   {
     Icon: IconAccount,
     title: 'Your account & memberships',
     description: 'Managing your profile, joining Spaces, memberships, benefits, and billing as a member.',
-    href: '/docs/account-memberships',
+    href: '/docs/category/account-memberships',
   },
   {
     Icon: IconRunSpace,
     title: 'Run your Space',
     description: 'Creating and launching a Space, managing members, channels, branding, custom domains, and payouts.',
-    href: '/docs/run-your-space',
+    href: '/docs/category/run-your-space',
   },
   {
     Icon: IconPolicies,
     title: 'Policies & support',
     description: 'Troubleshooting, refunds, community guidelines, account issues, and platform policies.',
-    href: '/docs/policies-support',
+    href: '/docs/category/policies-support',
   },
 ];
 
