@@ -68,8 +68,10 @@ const config = {
           {
             title: 'Help',
             items: [
-              { label: 'Getting Started', to: '/docs/start-here/what-is-commonspace' },
-              { label: 'Run Your Space', to: '/docs/run-your-space/creating-your-first-space' },
+              { label: 'Getting Started', to: '/docs/category/start-here' },
+              { label: 'Accounts', to: '/docs/category/your-account--memberships' },
+              { label: 'Run Your Space', to: '/docs/category/run-your-space' },
+              { label: 'Policies', to: '/docs/category/policies--support' },
             ],
           },
           {
