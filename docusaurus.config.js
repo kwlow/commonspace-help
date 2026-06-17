@@ -7,6 +7,10 @@ const config = {
   tagline: 'Help & Support for Commonspace',
   favicon: 'img/favicon.png',
 
+  future: {
+    v4: true,
+  },
+
   url: 'https://help.common.space',
   baseUrl: '/',
 

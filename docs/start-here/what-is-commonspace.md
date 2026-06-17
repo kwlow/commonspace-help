@@ -6,7 +6,7 @@ You create a branded community — called a **Space** — under your own domain 
 
 **In this article**
 - [The problem it solves](#the-problem-it-solves)
-- [Content, commerce, and community](#content-commerce-community)
+- [Content, commerce, and community](#content-commerce-and-community-in-that-order)
 - [What a Space includes](#what-a-space-includes)
 - [The Commonspace network](#the-commonspace-network)
 - [Who it's for](#who-its-for)
@@ -15,7 +15,6 @@ You create a branded community — called a **Space** — under your own domain 
 
 ---
 
-<a id="the-problem-it-solves"></a>
 ## The problem it solves
 
 Most creators and brands build their audiences on platforms they don't own. They publish on Instagram, grow on YouTube, build community on Discord — then pay those same platforms to reach the audience they built.
@@ -26,22 +25,18 @@ Commonspace replaces that dependency. It gives you the infrastructure to publish
 
 ---
 
-<a id="content-commerce-community"></a>
 ## Content, commerce, and community — in that order
 
 Commonspace is built around three integrated capabilities: content, commerce, and community. The order is the argument.
 
-<a id="content"></a>
 ### Content
 
 Content is how trust is established and audiences are earned. On Commonspace, you publish Update Posts, distribute them directly to members, and gate access to specific content for paying members. Your content drives everything that follows.
 
-<a id="commerce"></a>
 ### Commerce
 
 Once trust exists, transactions follow naturally. Commonspace gives you direct control over that commerce — recurring Memberships, one-time Items, and customizable Benefits attached to any product. Revenue from memberships and sales is paid out directly to you.
 
-<a id="community"></a>
 ### Community
 
 Community is the outcome of content and commerce done right — not the starting point. On Commonspace, members connect through Channels (discussion areas within your Space), interact with each other, and form a real community around what you publish and sell. It's durable because it's built on a platform that belongs to you, not subject to someone else's algorithm.
@@ -50,7 +45,6 @@ Community is the outcome of content and commerce done right — not the starting
 
 ---
 
-<a id="what-a-space-includes"></a>
 ## What a Space includes
 
 Every Space on Commonspace gives you:
@@ -74,7 +68,6 @@ You have direct access to your member data — emails, activity, location. Your 
 
 ---
 
-<a id="the-commonspace-network"></a>
 ## The Commonspace network
 
 Every person who joins any Space on Commonspace gets a universal Commonspace Account with their own `@username` and profile. One account works across every Space on the network — members don't need to sign up again when they join a new Space.
@@ -85,7 +78,6 @@ Members get a unified Dashboard Feed showing posts from every Space they've join
 
 ---
 
-<a id="who-its-for"></a>
 ## Who it's for
 
 Commonspace is built for anyone who has built an audience and wants to own the relationship with them — not rent access through a social platform.
@@ -102,7 +94,6 @@ Common use cases include:
 
 ---
 
-<a id="plans"></a>
 ## Plans
 
 | | Basic | Pro |
@@ -116,7 +107,6 @@ Common use cases include:
 
 ---
 
-<a id="get-started"></a>
 ## Get started
 
 Setting up a Space takes a few minutes and requires no technical skills.
