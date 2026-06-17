@@ -1,12 +1,5 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import {themes as prismThemes} from 'prism-react-renderer';
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -14,27 +7,18 @@ const config = {
   tagline: 'Help & Support for Commonspace',
   favicon: 'img/favicon.png',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    v4: true,
   },
 
-  // Set the production url of your site here
   url: 'https://help.common.space',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'kwlow', // Usually your GitHub org/user name.
-  projectName: 'commonspace-help', // Usually your repo name.
+  organizationName: 'kwlow',
+  projectName: 'commonspace-help',
 
   onBrokenLinks: 'throw',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -43,30 +27,11 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -74,10 +39,7 @@ const config = {
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
+  themeConfig: ({
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
         respectPrefersColorScheme: true,
@@ -102,35 +64,34 @@ const config = {
           },
         ],
       },
-footer: {
-  style: 'light',
-  links: [
-    {
-      title: 'Help',
-      items: [
-        { label: 'Getting Started', to: '/docs/getting-started/welcome' },
-        { label: 'Space Owners', to: '/docs/space-owners/creating-your-first-space' },
-        { label: 'FAQs', to: '/docs/faqs/general' },
-      ],
-    },
-    {
-      title: 'Legal',
-      items: [
-        { label: 'Terms of Use', to: '/docs/legal/terms-of-use' },
-        { label: 'Privacy Policy', to: '/docs/legal/privacy-policy' },
-        { label: 'Community Guidelines', to: '/docs/legal/community-guidelines' },
-      ],
-    },
-    {
-      title: 'Commonspace',
-      items: [
-        { label: 'Go to App', href: 'https://common.space' },
-        { label: 'Contact Support', href: 'mailto:support@common.space' },
-      ],
-    },
-  ],
-  copyright: `© ${new Date().getFullYear()} Commonspace Platforms, Inc. All Rights Reserved.`,
-},
+      footer: {
+        style: 'light',
+        links: [
+          {
+            title: 'Help',
+            items: [
+              { label: 'Getting Started', to: '/docs/start-here/what-is-commonspace' },
+              { label: 'Run Your Space', to: '/docs/run-your-space/creating-your-first-space' },
+            ],
+          },
+          {
+            title: 'Legal',
+            items: [
+              { label: 'Community Guidelines', to: '/docs/policies-support/community-guidelines' },
+              { label: 'Privacy Policy', to: '/docs/policies-support/privacy-policy-overview' },
+              { label: 'Space Owner Agreement', to: '/docs/policies-support/space-owner-agreement' },
+            ],
+          },
+          {
+            title: 'Commonspace',
+            items: [
+              { label: 'Go to App', href: 'https://common.space' },
+              { label: 'Contact Support', href: 'mailto:support@common.space' },
+            ],
+          },
+        ],
+        copyright: `© ${new Date().getFullYear()} Commonspace Platforms, Inc. All Rights Reserved.`,
+      },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
