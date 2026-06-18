@@ -144,7 +144,7 @@ export default function SpaceOwnerAgreement() {
       <p>(g) Have a Privacy Policy that discloses your data practices to Members</p>
 
       <h3>6.2.1 Data Processing Addendum</h3>
-      <p>Commonspace processes Member data on your behalf as a data processor. The terms of this processing are governed by the Commonspace Data Processing Addendum ("DPA"), which is incorporated into this Agreement by reference. The DPA sets out each party's obligations regarding the processing of Member Personal Data, including security measures, sub-processor management, breach notification, audit rights, and international data transfers. The DPA is available at <a href="https://common.space/legal/dpa" target="_blank" rel="noreferrer">https://common.space/legal/dpa</a>.</p>
+      <p>Commonspace processes Member data on your behalf as a data processor. The terms of this processing are governed by the Commonspace Data Processing Addendum ("DPA"), which is incorporated into this Agreement by reference. The DPA sets out each party's obligations regarding the processing of Member Personal Data, including security measures, sub-processor management, breach notification, audit rights, and international data transfers. The DPA is available at <a href="https://help.common.space/legal/dpa">https://help.common.space/legal/dpa</a>.</p>
 
       <h3>6.2.2 Data Subject Requests</h3>
       <p>You are responsible for responding to data subject requests (such as access, correction, deletion, or portability requests) from your Members regarding the Personal Data you hold about them as a data controller. Commonspace will assist you in responding to such requests through the tools and functionality available in the Services, as further described in the Data Processing Addendum.</p>
