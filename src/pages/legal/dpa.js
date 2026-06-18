@@ -5,7 +5,7 @@ export default function DPA() {
   return (
     <LegalPage title="Data Processing Addendum — Commonspace">
       <h1>COMMONSPACE DATA PROCESSING ADDENDUM</h1>
-      <p><em>Last Updated: June 17, 2026</em></p>
+      <p><em>Last Updated: March 26, 2026</em></p>
 
       <h2>1. Introduction</h2>
       <p>This Data Processing Addendum ("DPA") forms part of the Commonspace Space Owner Agreement ("Agreement") between Commonspace Platforms, Inc. ("Commonspace," "Processor," "we," "us") and the Space Owner ("Controller," "you") and governs Commonspace's processing of Personal Data on your behalf in connection with the Services.</p>

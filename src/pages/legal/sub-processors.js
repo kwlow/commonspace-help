@@ -1,7 +1,7 @@
 import React from 'react';
 import LegalPage from '@site/src/components/LegalPage';
 
-const LAST_UPDATED = 'June 17, 2026';
+const LAST_UPDATED = 'March 26, 2026';
 
 const coreSubProcessors = [
   {
