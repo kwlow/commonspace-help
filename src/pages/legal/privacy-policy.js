@@ -213,7 +213,7 @@ export default function PrivacyPolicy() {
         <li><strong>Shopify</strong> — E-commerce integration for Space stores. See <a href="https://www.shopify.com/legal/privacy" target="_blank" rel="noreferrer">https://www.shopify.com/legal/privacy</a></li>
         <li><strong>WhatsApp (Meta Platforms)</strong> — Messaging integration. See <a href="https://www.whatsapp.com/legal/privacy-policy" target="_blank" rel="noreferrer">https://www.whatsapp.com/legal/privacy-policy</a></li>
       </ul>
-      <p>The list of available Plugins may change over time and is maintained at <a href="https://common.space/legal/plugins" target="_blank" rel="noreferrer">https://common.space/legal/plugins</a>. Space Owners are responsible for informing their Members about which Plugins are active in their Space. Commonspace does not control the privacy practices of Plugin services and is not responsible for their handling of your data once shared.</p>
+      <p>The list of available Plugins may change over time and is maintained at <a href="https://help.common.space/legal/plugins">https://help.common.space/legal/plugins</a>. Space Owners are responsible for informing their Members about which Plugins are active in their Space. Commonspace does not control the privacy practices of Plugin services and is not responsible for their handling of your data once shared.</p>
 
       <h3>4.5 For Legal Reasons</h3>
       <p>We may disclose information to comply with law, respond to government requests, protect our rights, or prevent harm.</p>

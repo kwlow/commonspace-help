@@ -5,7 +5,7 @@ export default function DPA() {
   return (
     <LegalPage title="Data Processing Addendum — Commonspace">
       <h1>COMMONSPACE DATA PROCESSING ADDENDUM</h1>
-      <p><em>Last Updated: March 26, 2026</em></p>
+      <p><em>Last Updated: June 17, 2026</em></p>
 
       <h2>1. Introduction</h2>
       <p>This Data Processing Addendum ("DPA") forms part of the Commonspace Space Owner Agreement ("Agreement") between Commonspace Platforms, Inc. ("Commonspace," "Processor," "we," "us") and the Space Owner ("Controller," "you") and governs Commonspace's processing of Personal Data on your behalf in connection with the Services.</p>
@@ -63,7 +63,7 @@ export default function DPA() {
       <h2>7. Sub-processors</h2>
 
       <h3>7.1 General Authorization</h3>
-      <p>You provide general written authorization for Commonspace to engage Sub-processors to process Personal Data on your behalf. The current list of Sub-processors is set out in Annex 2.</p>
+      <p>You provide general written authorization for Commonspace to engage Sub-processors to process Personal Data on your behalf, including Sub-processors within the categories listed in Annex 2. The current list of specific Sub-processors within each authorized category is maintained at <a href="https://help.common.space/legal/sub-processors">https://help.common.space/legal/sub-processors</a>.</p>
 
       <h3>7.2 Obligations on Sub-processors</h3>
       <p>Commonspace will:</p>
@@ -71,7 +71,9 @@ export default function DPA() {
       <p>(b) Remain fully liable to you for the performance of each Sub-processor's obligations</p>
 
       <h3>7.3 Changes to Sub-processors</h3>
-      <p>Commonspace will notify you at least 30 days before adding or replacing a Sub-processor by updating the Sub-processor list at <a href="https://common.space/legal/sub-processors" target="_blank" rel="noreferrer">https://common.space/legal/sub-processors</a> and sending notice to the email associated with your Space Owner account. If you have a reasonable objection to a new Sub-processor based on data protection grounds, you may notify us in writing within 15 days of receiving notice. We will work with you in good faith to find a resolution. If no resolution is possible, either party may terminate the Agreement with respect to the affected Services.</p>
+      <p>Commonspace may add or replace Sub-processors within an already-authorized category by updating the Sub-processor list at <a href="https://help.common.space/legal/sub-processors">https://help.common.space/legal/sub-processors</a> and sending notice to the email associated with your Space Owner account at least 14 days before the change takes effect.</p>
+      <p>Commonspace will notify you at least 30 days before engaging a Sub-processor in a new category not listed in Annex 2.</p>
+      <p>If you have a reasonable objection to a new or replacement Sub-processor based on data protection grounds, you may notify us in writing within 15 days of receiving notice. We will work with you in good faith to find a resolution. If no resolution is possible, either party may terminate the Agreement with respect to the affected Services.</p>
 
       <h2>8. Data Subject Rights</h2>
 
@@ -195,109 +197,75 @@ export default function DPA() {
         </tbody>
       </table>
 
-      <h2>Annex 2: Sub-processors</h2>
-      <p>The following Sub-processors are authorized to process Personal Data on behalf of the Controller as of the date of this DPA:</p>
+      <h2>Annex 2: Authorized Sub-processor Categories</h2>
+      <p>The following categories of Sub-processors are authorized to process Personal Data on behalf of the Controller. The current list of specific Sub-processors within each category, including effective dates of any changes, is maintained at <a href="https://help.common.space/legal/sub-processors">https://help.common.space/legal/sub-processors</a> and updated in accordance with Section 7.3 of this DPA.</p>
       <table>
         <thead>
           <tr>
-            <th>Sub-processor</th>
+            <th>Category</th>
             <th>Purpose</th>
             <th>Location</th>
-            <th>Data Processed</th>
+            <th>Examples of Current Providers</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><strong>Amazon Web Services (AWS)</strong></td>
-            <td>Cloud infrastructure, data storage (S3, EC2, RDS)</td>
-            <td>United States (us-west-1)</td>
-            <td>All Personal Data stored in the Services</td>
+            <td><strong>Cloud Infrastructure &amp; Hosting</strong></td>
+            <td>Servers, storage, databases, CDN, networking</td>
+            <td>United States</td>
+            <td>Amazon Web Services (AWS), Cloudflare</td>
           </tr>
           <tr>
-            <td><strong>Stripe, Inc.</strong></td>
-            <td>Payment processing, identity verification</td>
+            <td><strong>Payment Processing &amp; Identity Verification</strong></td>
+            <td>Transaction processing, fraud prevention, identity verification</td>
             <td>United States</td>
-            <td>Member payment and transaction data, identity verification data</td>
+            <td>Stripe, Inc.</td>
           </tr>
           <tr>
-            <td><strong>Twilio, Inc.</strong></td>
-            <td>SMS-based two-factor authentication</td>
+            <td><strong>Communication &amp; Messaging</strong></td>
+            <td>Transactional email, SMS, push notifications</td>
             <td>United States</td>
-            <td>Phone numbers (for Members who enable SMS 2FA)</td>
+            <td>SendGrid (Twilio), Twilio, Expo (650 Industries), Apple (APNs), Google Firebase (FCM)</td>
           </tr>
           <tr>
-            <td><strong>SendGrid (Twilio)</strong></td>
-            <td>Transactional email delivery</td>
+            <td><strong>Security &amp; Fraud Prevention</strong></td>
+            <td>Bot detection, abuse prevention, authentication</td>
             <td>United States</td>
-            <td>Email addresses, email content</td>
+            <td>Google LLC (reCAPTCHA Enterprise)</td>
           </tr>
           <tr>
-            <td><strong>Google LLC</strong></td>
-            <td>reCAPTCHA Enterprise (fraud/bot prevention), Google Fonts, Google Maps</td>
+            <td><strong>Mapping &amp; Location Services</strong></td>
+            <td>Address lookup, location display</td>
             <td>United States</td>
-            <td>IP address, interaction data, location data</td>
+            <td>Google LLC (Google Maps)</td>
           </tr>
           <tr>
-            <td><strong>Expo (650 Industries)</strong></td>
-            <td>Mobile app build and push notifications</td>
+            <td><strong>Error Monitoring &amp; Observability</strong></td>
+            <td>Application performance monitoring, error tracking, logging</td>
             <td>United States</td>
-            <td>Push notification tokens, device identifiers</td>
+            <td>See current list at sub-processors URL</td>
           </tr>
           <tr>
-            <td><strong>Google Firebase (Google LLC)</strong></td>
-            <td>Android push notifications (FCM)</td>
+            <td><strong>Analytics</strong></td>
+            <td>Platform and Space activity analytics</td>
             <td>United States</td>
-            <td>Device tokens, notification payloads</td>
+            <td>See current list at sub-processors URL</td>
           </tr>
           <tr>
-            <td><strong>Apple Inc.</strong></td>
-            <td>iOS app distribution and push notifications (APNs)</td>
+            <td><strong>AI &amp; Machine Learning</strong></td>
+            <td>AI-powered features within the Services</td>
             <td>United States</td>
-            <td>Device tokens, notification payloads</td>
+            <td>See current list at sub-processors URL</td>
+          </tr>
+          <tr>
+            <td><strong>Space Plugins</strong></td>
+            <td>Optional integrations activated per-Space by Controller; Member opt-in required on first access</td>
+            <td>United States / EU (varies by Plugin)</td>
+            <td>Zoom Video Communications, Discord, Shopify, WhatsApp (Meta Platforms)</td>
           </tr>
         </tbody>
       </table>
-
-      <p><em>Optional Space Plugins (activated per-Space by Controller; user opt-in required on first access):</em></p>
-      <table>
-        <thead>
-          <tr>
-            <th>Sub-processor</th>
-            <th>Purpose</th>
-            <th>Location</th>
-            <th>Data Processed</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Zoom Video Communications</strong></td>
-            <td>Video conferencing for Space events (Plugin)</td>
-            <td>United States</td>
-            <td>Display name, meeting metadata, audio/video data</td>
-          </tr>
-          <tr>
-            <td><strong>Discord</strong></td>
-            <td>Community chat integration (Plugin)</td>
-            <td>United States</td>
-            <td>Display name, profile information, messages</td>
-          </tr>
-          <tr>
-            <td><strong>Shopify</strong></td>
-            <td>E-commerce integration for Space stores (Plugin)</td>
-            <td>United States</td>
-            <td>Display name, transaction data, shipping information</td>
-          </tr>
-          <tr>
-            <td><strong>WhatsApp (Meta Platforms)</strong></td>
-            <td>Messaging integration (Plugin)</td>
-            <td>United States / EU</td>
-            <td>Display name, phone number, messages</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <p>Plugin Sub-processors only process Personal Data for Members who actively opt in to use the Plugin within a Space. The Controller determines which Plugins to enable. The current list of available Plugins is maintained at <a href="https://common.space/legal/plugins" target="_blank" rel="noreferrer">https://common.space/legal/plugins</a>.</p>
-      <p>This list is maintained at <a href="https://common.space/legal/sub-processors" target="_blank" rel="noreferrer">https://common.space/legal/sub-processors</a> and updated in accordance with Section 7.3 of this DPA.</p>
+      <p>Plugin Sub-processors only process Personal Data for Members who actively opt in to use the Plugin within a Space. The Controller determines which Plugins to enable. The current list of available Plugins is maintained at <a href="https://help.common.space/legal/plugins">https://help.common.space/legal/plugins</a>.</p>
     </LegalPage>
   );
 }
