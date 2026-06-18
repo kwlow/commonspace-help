@@ -43,7 +43,7 @@
 }
 
 html {
-  background: linear-gradient(160deg, #fdf0ff 0%, #fff5fb 50%, #f5f0ff 100%);
+  background: linear-gradient(to right top, #FFE6F8, #EBF3FF);
   min-height: 100%;
 }
 
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer__link-item {
-  color: #6b7280;
+  color: #888888;
 }
 
 .footer__link-item:hover {
@@ -68,12 +68,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer__copyright {
-  color: #6b7280;
+  color: #888888;
 }
 
 /* Navbar */
 .navbar__title {
-  color: #6b7280;
+  color: #888888;
   font-size: 15px;
   font-weight: 400;
   border-left: 1px solid #d1d5db;
@@ -87,4 +87,31 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar__link:hover {
   color: #3883ff;
+}
+
+/* Category index page — doc cards */
+.theme-doc-card-container.card {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  box-shadow: none;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.theme-doc-card-container.card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.theme-doc-card-heading {
+  background: var(--cs-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.theme-doc-card-description {
+  font-size: 0.875rem;
+  color: #888888;
 }
