@@ -1,1 +1,3 @@
 # Community Guidelines
+
+*Coming soon.*
