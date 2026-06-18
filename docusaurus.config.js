@@ -77,9 +77,10 @@ const config = {
           {
             title: 'Legal',
             items: [
-              { label: 'Community Guidelines', to: '/docs/policies-support/community-guidelines' },
-              { label: 'Privacy Policy', to: '/docs/policies-support/privacy-policy-overview' },
-              { label: 'Space Owner Agreement', to: '/docs/policies-support/space-owner-agreement' },
+              { label: 'Terms of Use', to: '/legal/terms-of-service' },
+              { label: 'Privacy Policy', to: '/legal/privacy-policy' },
+              { label: 'Community Guidelines', to: '/legal/community-guidelines' },
+              { label: 'Space Owner Agreement', to: '/legal/space-owner-agreement' },
             ],
           },
           {
