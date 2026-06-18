@@ -1,1 +1,1 @@
-# Setting up membership tiers and pricing
+# Setting Up Membership Tiers and Pricing

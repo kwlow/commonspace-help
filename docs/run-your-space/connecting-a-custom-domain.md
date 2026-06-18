@@ -1,1 +1,1 @@
-# Connecting a custom domain
+# Connecting a Custom Domain

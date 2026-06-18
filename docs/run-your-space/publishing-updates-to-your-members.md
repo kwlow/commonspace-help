@@ -1,1 +1,1 @@
-# Publishing updates to your members
+# Publishing Updates to Your Members

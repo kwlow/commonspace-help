@@ -1,1 +1,1 @@
-# Inviting members manually
+# Inviting Members Manually

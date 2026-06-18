@@ -43,18 +43,12 @@ const config = {
         respectPrefersColorScheme: false,
       },
       navbar: {
-        title: '',
+        title: 'Help Center',
         logo: {
           alt: 'Commonspace',
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'helpSidebar',
-            position: 'left',
-            label: 'Help Center',
-          },
           {
             href: 'https://common.space',
             label: 'Back to Commonspace',

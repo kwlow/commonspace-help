@@ -1,1 +1,1 @@
-# Why was my payment declined?
+# Why Was My Payment Declined?

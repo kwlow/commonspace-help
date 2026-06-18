@@ -1,1 +1,1 @@
-# How to join a Space
+# How to Join a Space

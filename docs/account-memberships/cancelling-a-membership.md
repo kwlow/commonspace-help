@@ -1,1 +1,1 @@
-# Cancelling a membership
+# Cancelling a Membership

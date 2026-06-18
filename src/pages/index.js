@@ -68,25 +68,25 @@ function IconPolicies() {
 const topics = [
   {
     Icon: IconStartHere,
-    title: 'Start here',
+    title: 'Start Here',
     description: 'New to Commonspace? Learn what the platform is, how it works, and how to set up your account and profile.',
     href: '/docs/category/start-here',
   },
   {
     Icon: IconAccount,
-    title: 'Your account & memberships',
+    title: 'Your Account & Memberships',
     description: 'Managing your profile, joining Spaces, memberships, benefits, and billing as a member.',
     href: '/docs/category/account-memberships',
   },
   {
     Icon: IconRunSpace,
-    title: 'Run your Space',
+    title: 'Run Your Space',
     description: 'Creating and launching a Space, managing members, channels, branding, custom domains, and payouts.',
     href: '/docs/category/run-your-space',
   },
   {
     Icon: IconPolicies,
-    title: 'Policies & support',
+    title: 'Policies & Support',
     description: 'Troubleshooting, refunds, community guidelines, account issues, and platform policies.',
     href: '/docs/category/policies-support',
   },

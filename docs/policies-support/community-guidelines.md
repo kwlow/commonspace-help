@@ -1,1 +1,1 @@
-# Community guidelines
+# Community Guidelines

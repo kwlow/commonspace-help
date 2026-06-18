@@ -1,1 +1,1 @@
-# Managing your active memberships
+# Managing Your Active Memberships

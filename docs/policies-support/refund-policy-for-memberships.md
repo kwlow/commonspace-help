@@ -1,1 +1,1 @@
-# Refund policy for memberships
+# Refund Policy for Memberships

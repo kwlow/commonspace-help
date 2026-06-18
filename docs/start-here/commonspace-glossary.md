@@ -1,1 +1,1 @@
-# Commonspace glossary
+# Commonspace Glossary

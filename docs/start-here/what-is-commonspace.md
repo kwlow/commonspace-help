@@ -1,4 +1,4 @@
-# What is Commonspace?
+# What Is Commonspace?
 
 Commonspace is a membership platform for creators, brands, and businesses to own their content, commerce, and community.
 

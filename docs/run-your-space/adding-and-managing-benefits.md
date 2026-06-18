@@ -1,1 +1,1 @@
-# Adding and managing benefits
+# Adding and Managing Benefits

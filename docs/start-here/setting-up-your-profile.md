@@ -1,1 +1,1 @@
-# Setting up your profile
+# Setting Up Your Profile

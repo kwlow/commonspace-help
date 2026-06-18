@@ -1,1 +1,1 @@
-# Setting up channels for your community
+# Setting Up Channels for Your Community

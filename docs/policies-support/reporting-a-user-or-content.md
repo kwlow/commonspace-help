@@ -1,1 +1,1 @@
-# Reporting a user or content
+# Reporting a User or Content

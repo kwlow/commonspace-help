@@ -1,1 +1,1 @@
-# What happens when a Space is suspended
+# What Happens When a Space Is Suspended

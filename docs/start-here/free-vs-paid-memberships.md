@@ -1,1 +1,1 @@
-# Free vs paid memberships
+# Free vs Paid Memberships

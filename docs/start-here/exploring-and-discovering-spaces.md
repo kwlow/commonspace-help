@@ -1,1 +1,1 @@
-# Exploring and discovering Spaces
+# Exploring and Discovering Spaces

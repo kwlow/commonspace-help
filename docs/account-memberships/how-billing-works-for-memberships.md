@@ -1,1 +1,1 @@
-# How billing works for memberships
+# How Billing Works for Memberships

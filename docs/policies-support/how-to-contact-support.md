@@ -1,1 +1,1 @@
-# How to contact support
+# How to Contact Support

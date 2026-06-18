@@ -1,1 +1,1 @@
-# Accessing your membership benefits
+# Accessing Your Membership Benefits

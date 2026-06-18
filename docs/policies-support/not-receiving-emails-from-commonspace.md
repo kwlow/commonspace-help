@@ -1,1 +1,1 @@
-# Not receiving emails from Commonspace
+# Not Receiving Emails from Commonspace
