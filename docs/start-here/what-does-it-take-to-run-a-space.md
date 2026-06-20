@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: A practical walkthrough of the Space setup sequence — from account creation to going live — including the key decisions you'll make and what Members experience once you launch.
 ---
 
 # What Does It Take to Run a Space?

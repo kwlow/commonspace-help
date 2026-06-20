@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: Creators, brands, nonprofits, and local businesses all run Spaces differently. Find out which type of owner fits your goals and how Commonspace is built for each use case.
 ---
 
 # Who Is Commonspace For?

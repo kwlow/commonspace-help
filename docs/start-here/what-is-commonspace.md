@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: A community membership platform where creators, brands, and businesses build branded Spaces on their own domain — with memberships, content, commerce, and community all in one place.
 ---
 
 # What Is Commonspace?

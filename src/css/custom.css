@@ -99,6 +99,13 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
 }
 
+/* Category index page — 1-col layout */
+.docs-wrapper .margin-top--lg .row article.col {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}
+
 /* Category index page — 2-col card grid with gutters + equal height */
 .docs-wrapper .margin-top--lg article.col {
   margin-bottom: 1.25rem;
@@ -110,7 +117,8 @@ h1, h2, h3, h4, h5, h6 {
 .theme-doc-card-container.card {
   flex: 1;
   padding: 1rem !important;
-  min-height: 120px;
+  height: 140px;
+  overflow: hidden;
   border: 1px solid var(--ifm-color-emphasis-300);
   border-radius: 1rem;
   box-shadow: none;
@@ -147,6 +155,12 @@ h1, h2, h3, h4, h5, h6 {
 .theme-doc-card-description {
   font-size: 0.875rem;
   color: #888888;
+  white-space: normal !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 /* Hide prev/next article navigation */
