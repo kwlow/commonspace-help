@@ -43,7 +43,7 @@
 }
 
 html {
-  background: linear-gradient(to right top, #FFE6F8, #EBF3FF);
+  background: linear-gradient(to right, #FFE6F8, #EBF3FF);
   min-height: 100%;
 }
 
@@ -147,4 +147,14 @@ h1, h2, h3, h4, h5, h6 {
 .theme-doc-card-description {
   font-size: 0.875rem;
   color: #888888;
+}
+
+/* Hide prev/next article navigation */
+.pagination-nav {
+  display: none;
+}
+
+/* Hide horizontal rule dividers */
+.theme-doc-markdown hr {
+  display: none;
 }

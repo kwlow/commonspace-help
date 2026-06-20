@@ -20,6 +20,20 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 85,
+        max: 1920,
+        min: 640,
+        steps: 2,
+        disableInDev: false,
+      },
+    ],
+    'docusaurus-plugin-image-zoom',
+  ],
+
   presets: [
     [
       'classic',
@@ -35,7 +49,19 @@ const config = {
     ],
   ],
 
-  themeConfig: ({
+  themeConfig: /** @type {import('@docusaurus/preset-classic').ThemeConfig} */ ({
+    zoom: {
+      selector: '.markdown img',
+      background: {
+        light: 'rgba(0,0,0,0.75)',
+        dark: 'rgba(0,0,0,0.85)',
+      },
+      config: {
+        margin: 48,
+        scrollOffset: 0,
+        container: { top: 72 },
+      },
+    },
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
         defaultMode: 'light',
